@@ -699,6 +699,7 @@ declare namespace Chart {
         borderDash?: number[] | undefined;
         borderDashOffset?: number | undefined;
         borderJoinStyle?: 'bevel' | 'round' | 'miter' | undefined;
+        borderRadius?: number | string | undefined;
         borderSkipped?: PositionType | PositionType[] | Scriptable<PositionType> | undefined;
         categoryPercentage?: number | undefined;
         data?: Array<number | null | undefined | number[]> | ChartPoint[] | undefined;
